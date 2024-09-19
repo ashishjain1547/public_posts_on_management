@@ -90,7 +90,7 @@
 <h2 class="customIdentifyingPersonalities"><span class="arrow up"></span> 1: Identifying Personalities in Different
     Domains</h2>
 
-<div class="customIdentifyingPersonalities">
+<div id="customIdentifyingPersonalities">
     <ol class="">
         <li class="">
             <a href="http://survival8.blogspot.com/2020/12/type-and-type-b-personality-types.html" target="_blank"
@@ -148,7 +148,7 @@
 </div>
 
 <h2 class="customNegotiation"><span class="arrow up"></span> 2: Negotiation</h2>
-<div class="customNegotiation">
+<div id="customNegotiation">
     <ol class="">
         <li>
             <a href="https://survival8.blogspot.com/2020/03/tactics-and-values-in-negotiation.html">
@@ -181,7 +181,7 @@
 </div>
 
 <h2 class="customBehavioralScience"><span class="arrow up"></span> 3: Behavioral Science</h2>
-<div class="customBehavioralScience">
+<div id="customBehavioralScience">
     <ol class="">
         <li>
             <a href="https://survival8.blogspot.com/2020/01/six-negative-listening-patterns.html">
@@ -247,8 +247,14 @@
 </div>
 
 <h2 class="customLayoffs"><span class="arrow up"></span> 4: Layoffs</h2>
-<div class="customLayoffs">
+<div id="customLayoffs">
     <ol>
+        <li>
+            <a href="https://survival8.blogspot.com/2024/09/ciscos-second-layoff-of-2024-affects.html" target="_blank">
+                Cisco’s second layoff of 2024 affects thousands of employees
+            </a>
+        </li>
+
         <li>
             <a href="https://survival8.blogspot.com/2024/09/ai-is-here-and-so-are-job-losses-and.html" target="_blank">
                 AI is here, and so are job losses and inequality
@@ -313,7 +319,7 @@
 </div>
 
 <h2 class="customElonMusk"><span class="arrow up"></span> 5: Elon Musk</h2>
-<div class="customElonMusk">
+<div id="customElonMusk">
     <ol>
         <li>
             <a href="https://survival8.blogspot.com/2022/10/elon-musk-clearing-why-he-overtook.html" target="_blank">
@@ -338,7 +344,7 @@
 </div>
 
 <h2 class="customXeroxCaseStudy"><span class="arrow up"></span> 6: Xerox (A Case Study)</h2>
-<div class="customXeroxCaseStudy">
+<div id="customXeroxCaseStudy">
     <ol>
         <li>
             <a href="https://survival8.blogspot.com/2023/01/the-fast-and-incredible-rise-of-xerox.html" target="_blank">
@@ -364,7 +370,7 @@
 
 
 <h2 class="customMiscManagement"><span class="arrow up"></span> 7: Misc</h2>
-<div class="customMiscManagement">
+<div id="customMiscManagement">
     <ol>
         <li>
             <a href="https://survival8.blogspot.com/2019/03/three-steps-to-success-on-job.html">
@@ -492,37 +498,37 @@
 <script>
 
     $('h2.customMiscManagement').click(function () {
-        $("div.customMiscManagement").fadeToggle();
+        $("div#customMiscManagement").fadeToggle();
         $("h2.customMiscManagement > .arrow").toggleClass('up').toggleClass('down');
     });
 
     $('h2.customIdentifyingPersonalities').click(function () {
-        $("div.customIdentifyingPersonalities").fadeToggle();
+        $("div#customIdentifyingPersonalities").fadeToggle();
         $("h2.customIdentifyingPersonalities > .arrow").toggleClass('up').toggleClass('down');
     });
 
     $('h2.customNegotiation').click(function () {
-        $("div.customNegotiation").fadeToggle();
+        $("div#customNegotiation").fadeToggle();
         $("h2.customNegotiation > .arrow").toggleClass('up').toggleClass('down');
     });
 
     $('h2.customBehavioralScience').click(function () {
-        $("div.customBehavioralScience").fadeToggle();
+        $("div#customBehavioralScience").fadeToggle();
         $("h2.customBehavioralScience > .arrow").toggleClass('up').toggleClass('down');
     });
 
     $('h2.customLayoffs').click(function () {
-        $("div.customLayoffs").fadeToggle();
+        $("div#customLayoffs").fadeToggle();
         $("h2.customLayoffs > .arrow").toggleClass('up').toggleClass('down');
     });
 
     $('h2.customElonMusk').click(function () {
-        $("div.customElonMusk").fadeToggle();
+        $("div#customElonMusk").fadeToggle();
         $("h2.customElonMusk > .arrow").toggleClass('up').toggleClass('down');
     });
 
     $('h2.customXeroxCaseStudy').click(function () {
-        $("div.customXeroxCaseStudy").fadeToggle();
+        $("div#customXeroxCaseStudy").fadeToggle();
         $("h2.customXeroxCaseStudy > .arrow").toggleClass('up').toggleClass('down');
     });
 
